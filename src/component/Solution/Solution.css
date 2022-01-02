@@ -1,0 +1,119 @@
+.solution{
+    margin: 6rem 0;
+}
+.solution_rap{
+    padding:1rem 6rem;
+}
+
+.solution_heading{
+    border: 4px solid black;
+    box-shadow: 15px 15px black;
+    margin-bottom: 9rem;
+}
+
+.solution_heading p {
+    color: #030303;
+    font-family: 'Gothic A1', sans-serif;
+    font-size: 55px !important;
+    font-weight: 700;
+    letter-spacing: 4px;
+    padding: 0.5rem 3rem;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.solution_img1{
+    width: 55%;
+    margin-left: 6rem;
+}
+.solution_para{
+    color: 	#383838;
+    font-family: 'Gothic A1', sans-serif;
+    font-size: 28px !important;
+    font-weight: 700;
+    letter-spacing: 4px;
+    line-height: 60px;
+    z-index: -1 !important;
+    
+}
+/* .solution_para img {
+    margin-right: -5rem;
+    z-index: 100 !important;
+} */
+
+.solution_button{
+    margin-top: -3rem;
+    display: flex;
+    justify-content: end;
+}
+.three_solution{
+    margin-top: 10rem;
+    margin-bottom: 8rem;
+}
+.solution_box {
+    width: 310px;
+    height: 250px;
+    background-color: #EEFFC9;
+    border-radius: 30px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.089);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+}
+
+.solution_box_text p {
+    color: 	#383838;
+    font-family: 'Gothic A1', sans-serif;
+    font-size: 20px !important;
+    font-weight: 700;
+    letter-spacing: 4px;
+    line-height: 40px;
+    display: flex;
+    justify-content: center;
+}
+.solution3_1_img{
+    width: 33%;
+    /* margin: -40px 0 0 80px; */
+    position: relative;
+    top: 110%;
+    left: 30%;
+}
+.solution3_2_img{
+    width: 35%;
+    /* margin: -40px 0 0 100px; */
+    position: relative;
+    top: 110%;
+    left: 30%;
+}
+.solution3_3_img{
+    width: 25%;
+    /* margin: -35px 0 0 110px; */
+    position: relative;
+    top: 120%;
+    left: 30%;
+}
+.solution_circle{
+    width: 70px;
+    height: 70px;
+     background-color: #F9A76D;
+    border-radius: 50%;
+    position: relative;
+    top: 15%;
+    left: 35%;
+    z-index: 100;
+    
+}
+.solution_number{
+    color: 	#fff;
+    /* font-family: 'Gothic A1', sans-serif; */
+    font-size: 35px !important;
+    font-weight: 800;
+    letter-spacing: 4px;
+    line-height: 40px;
+    display: flex;
+    justify-content: center;
+   padding-top:25px;
+   padding-left: 5px;
+}

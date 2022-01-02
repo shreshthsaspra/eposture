@@ -1,0 +1,23 @@
+
+
+.footer_logo{
+    width: 50%;
+    margin-top: -10px;
+    
+}
+
+.footer_list{
+    list-style: none;
+    text-decoration: none;
+    display: flex;
+    justify-content: space-between;
+
+
+}
+.footer_list a {
+    text-decoration: none;
+    color: #030303;
+    font-family: 'Gothic A1', sans-serif;
+    font-size: 20px !important;
+    font-weight: 800;
+}

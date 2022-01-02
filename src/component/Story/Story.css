@@ -1,0 +1,46 @@
+.story{
+    margin-top: 45rem;
+    margin-bottom: 20rem;
+
+}
+.story_rap{
+    padding: 1rem 6rem;
+}
+.story_heading {
+    color: #030303;
+    font-family: 'Gothic A1', sans-serif;
+    font-size: 22px !important;
+    font-weight: 800;
+    letter-spacing: 3px;
+    margin-bottom: 8rem;
+}
+.story_logo{
+    width: 12%;
+}
+.story_content p {
+    color: #030303;
+    font-family: 'Gothic A1', sans-serif;
+    font-size: 24px !important;
+    font-weight: 400;
+    letter-spacing: 1px;
+    line-height: 60px;
+}
+.story_img{
+    display: flex;
+    justify-content: end;
+}
+.story_img img {
+    width: 30%;
+}
+.bottom_img{
+    display: flex;
+    justify-content: center;
+    margin-top: 6rem;
+
+
+}
+
+.bottom_img img {
+    width: 40%;
+}
+
