@@ -47,7 +47,7 @@ const Story = () => {
 
                             </p>
 
-
+ 
                         </div>
 
                         <div className=" pBox solution_button mt-5">

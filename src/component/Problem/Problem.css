@@ -37,3 +37,84 @@
 .problem2_img img {
     width: 30%;
 }
+@media only screen and (max-width: 1200px) {
+
+    .problem_rap{
+        padding:1rem !important;
+    }
+    .problem_content1{
+        
+        font-size: 23px;
+        
+        letter-spacing: 1px;
+        line-height: 55px;
+    }
+  }
+
+  @media only screen and (max-width: 992px) {
+
+    .problem_rap{
+        padding:2rem !important;
+    }
+    .problem_content1{
+        
+        font-size: 23px;
+        
+        letter-spacing: 1px;
+        line-height: 55px;
+    }
+    .problem1_img{
+        margin-top: 4rem;
+        width: 80%;
+    }
+    .problem2_img{
+        margin-top: 5rem;
+        display: flex;
+        justify-content: end;
+    }
+    .problem2_img img {
+        width: 50%;
+    }
+  }
+
+  @media only screen and (max-width: 550px) {
+
+    .problem_rap{
+        padding:2rem !important;
+    }
+    .problem_content1{
+        
+        font-size: 18px;
+        
+        letter-spacing: 1px;
+        line-height: 55px;
+    }
+    .problem1_img{
+        margin-top: 4rem;
+        width: 80%;
+    }
+    .problem2_img{
+        margin-top: 5rem;
+        display: flex;
+        justify-content: end;
+    }
+    .problem2_img img {
+        width: 50%;
+    }
+  }
+
+  @media only screen and (max-width: 450px) {
+
+    .problem_rap{
+        padding:1rem !important;
+    }
+    .problem_content1{
+        
+        font-size: 16px;
+        
+        letter-spacing: 1px;
+        
+    }
+  }
+
+

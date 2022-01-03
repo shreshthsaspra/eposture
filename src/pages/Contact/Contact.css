@@ -1,0 +1,65 @@
+
+
+.contact_page{
+    margin-top: 5rem;
+}
+.contact_heading h1{
+    font-family: 'Gothic A1', sans-serif;
+    font-size: 25px;
+    font-weight: 700;
+    letter-spacing: 3px;
+    padding-bottom: 2rem;
+    
+}
+
+.contact_heading p{
+    font-family: 'Gothic A1', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 2.5px;
+    line-height: 30px;
+    padding-bottom: 2rem;
+    
+}
+.contact_label{
+    font-family: 'Gothic A1', sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    line-height: 30px;
+    padding-bottom: 2rem;
+}
+.control_input{
+    border: 3px solid black !important;
+}
+.form-control:focus {
+    box-shadow: none !important;
+  }
+
+  .contact_box{
+    width: 200px;
+    height: 50px;
+    opacity: 1;
+    position: absolute;
+}
+.contact_box_first{
+    z-index: 2;
+    border: 3px solid black;
+    background: #fff;
+}
+.contact_box_second {
+    top: 6px;
+    left: 6px;
+    border: 3px solid black;
+    background: #fff;
+    z-index: 1;
+    /* padding-left: 12rem !important; */
+    position: relative;
+}
+.contact_box_first p {
+    font-family: 'Gothic A1', sans-serif;
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: 3px;
+    text-align: center;
+}

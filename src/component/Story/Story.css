@@ -36,11 +36,59 @@
     display: flex;
     justify-content: center;
     margin-top: 6rem;
-
-
 }
 
 .bottom_img img {
     width: 40%;
 }
 
+@media only screen and (max-width: 993px) {
+    .story_rap{
+        padding: 1rem 1rem;
+    }
+    
+    .story_img img {
+        width: 35%;
+        margin: 1rem;
+    }
+    .story_content p {
+      
+        font-size: 20px !important;
+        
+    }
+  }
+
+
+  @media only screen and (max-width: 768px) {
+    .story_rap{
+        padding: 0;
+    }
+    
+    .story_img img {
+        width: 45%;
+        margin: 1rem;
+    }
+    .story_content p {
+      
+        font-size: 18px !important;
+        
+    }
+  }
+  @media only screen and (max-width: 400px) {
+    .story_rap{
+        padding: 1rem;
+    }
+    
+    .story_img img {
+        width: 50%;
+        margin: 1rem;
+    }
+    .story_content p {
+      
+        font-size: 16px !important;
+        
+    }
+    .bottom_img img {
+        width: 70%;
+    }
+  }

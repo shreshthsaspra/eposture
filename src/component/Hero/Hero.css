@@ -1,5 +1,5 @@
 .heroImage{
-    width: 65%;
+    width: 45%;
 }
 .hero_right_image{
     width: 25%;
@@ -16,3 +16,44 @@
     line-height: 65px;
     margin-right: 8rem;
 }
+
+@media only screen and (max-width: 1200px) {
+    .hero_para{
+       
+        margin-right: 2rem;
+    }
+  }
+
+  @media only screen and (max-width: 992px) {
+    .heroImage{
+       
+        margin-bottom: 6rem;
+
+    }
+    .hero_para{
+       
+        margin-right: 0;
+    }
+  }
+
+  @media only screen and (max-width: 600px) {
+    .hero_para{
+        font-size: 20px;
+        margin-right: 0;
+        letter-spacing: 4px;
+    }
+    .heroImage{
+       
+        margin-bottom: 6rem;
+
+    }
+  }
+  @media only screen and (max-width: 400px) {
+    
+    .heroImage{
+       
+       width: 65%;
+
+    }
+  }
+

@@ -40,7 +40,7 @@ const Problem = () => {
                 </div>
             </section>
         </>
-    )
+    ) 
 }
 
 export default Problem
