@@ -19,8 +19,8 @@ const Solution = () => {
                             <div className="col-lg-7">
                                 <p className="solution_para">
                                     高齢者に最も利用されている <img className='solution_para_img' src="/images/line.png" alt="line image" /> を
-                                    活用することで全ての顧客が使い易く、便利。
-                                    必要な情報もいつでもWebで確認でき、
+                                    <br />活  用することで全ての顧客が使い易く、便利。 <br />
+                                    必要な情報もいつでもWebで確認でき、 <br />
                                     フィードバックも簡単。
                                 </p>
 

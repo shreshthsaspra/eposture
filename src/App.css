@@ -1,1 +1,40 @@
 @import url('https://fonts.googleapis.com/css2?family=Gothic+A1:wght@200;300;400;500;600;700;800;900&display=swap');
+
+
+@media only screen and (min-width: 1700px) {
+    body {
+        margin: 0 !important;
+        padding: 0  !important;
+    }
+    .hero_img_left{
+        display: flex;
+        justify-content: start !important;
+    }
+    .hero_para{
+       margin-left: 4rem;
+
+    }
+    .hero_right_image{
+        margin-left: 4rem;
+
+    }
+
+    .problem_rap{
+        padding:1rem 1rem !important;
+    }
+
+    .solution_rap{
+        padding:1rem 1rem !important;
+    }
+    .feature_box{
+        width: 1500px !important;
+        height: 800px !important;
+    }
+    .feature_rap{
+        padding:1% 2% !important;
+    }
+    .story_rap{
+        padding: 1rem 1rem !important;
+    }
+
+}
