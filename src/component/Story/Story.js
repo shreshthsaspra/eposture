@@ -54,7 +54,7 @@ const Story = () => {
                             <div className="mt-5 me-5 pt-4">
 
                                 <div className="nav_box nav_box_first pt-1">
-                                    <p>お問合せはこちら <img classname="img-fluid" style={{ width: "8%" }} src="/images/arrow.png" alt="arrow" /></p>
+                                    <p>お問合せはこちら <img className="img-fluid" style={{ width: "8%" }} src="/images/arrow.png" alt="arrow" /></p>
                                 </div>
                                 <div className="nav_box nav_box_second"></div>
                             </div>

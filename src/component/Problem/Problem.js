@@ -30,7 +30,7 @@ const Problem = () => {
                                     <img className='img-fluid problem1_img' src="/images/problem1.png" alt="Problem Image" />
                                 </div>
                             </div>
-                        </div>
+                        </div> 
 
                         <div className="problem2_img">
                             <img className='img-fluid' src="/images/problem2.png" alt="Problem2" />
