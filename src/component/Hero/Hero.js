@@ -11,9 +11,9 @@ const Hero = () => {
                         <div className="row d-flex justify-content-center align-items-center  ">
                             <div className="col-lg-5 col-11 mx-auto ">
                                 <div className="d-flex justify-content-center hero_img_left mx-auto">
-                                    {/* <ScrollAnimation duration={2} animateIn='bounceInLeft' animateOnce={true}> */}
+                                    <ScrollAnimation duration={5} animateIn='fadeIn' animateOnce={true}>
                                         <img className="heroImage" src="/images/mobile1.png" alt="Hero Images" />
-                                    {/* </ScrollAnimation> */}
+                                    </ScrollAnimation>
                                 </div>
 
  
@@ -21,8 +21,9 @@ const Hero = () => {
 
 
                             <div className="col-lg-7 col-11 mx-auto ">
+                            <ScrollAnimation duration={5} animateIn='fadeIn' animateOnce={true}>
                                 <img className="img-fluid hero_right_image" src="/images/logo.png" alt="logo image" />
-                                {/* <ScrollAnimation duration={3} animateIn='bounceInRight' animateOnce={true}> */}
+                               
 
                                     <p className="hero_para mt-5">
                                         アナログだったヘルスケアサービスを  <br />
@@ -32,7 +33,7 @@ const Hero = () => {
                                         顧客とのコミュニケーションから管理まで <br />
                                         Webでどこからでも可能にするサービスです。
                                     </p>
-                                {/* </ScrollAnimation> */}
+                                </ScrollAnimation>
 
                             </div>
                         </div>
