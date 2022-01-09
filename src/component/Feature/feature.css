@@ -57,7 +57,7 @@
 
 .feature_list_image{
     display: flex;
-    justify-content: end;
+    justify-content: flex-end;
 
 }
 .feature_list_image img {

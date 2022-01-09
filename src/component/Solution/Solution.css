@@ -81,6 +81,7 @@
     /* margin: -40px 0 0 80px; */
     position: relative;
     top: 110% !important;
+    height: 100%;
     left: 25%;
 }
 .solution3_2_img{
@@ -88,6 +89,8 @@
     /* margin: -40px 0 0 100px; */
     position: relative;
     top: 110% !important;
+    height: 100%;
+
     left: 28%;
 }
 .solution3_3_img{
@@ -95,6 +98,7 @@
     /* margin: -35px 0 0 110px; */
     position: relative;
     top: 120% !important;
+    height: 100% !important;
     left: 29%;
 }
 .solution_circle{

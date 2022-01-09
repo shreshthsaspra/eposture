@@ -21,7 +21,7 @@ const Solution = () => {
                                     高齢者に最も利用されている <img className='solution_para_img' src="/images/line.png" alt="line image" /> を
                                     <br />活  用することで全ての顧客が使い易く、便利。 <br />
                                     必要な情報もいつでもWebで確認でき、 <br />
-                                    フィードバックも簡単。
+                                    フィードバックも簡単。 
                                 </p>
 
                                 <div className=" pBox solution_button">
@@ -48,7 +48,10 @@ const Solution = () => {
                                                 顧客とやり取り</p>
                                         </div>
                                     </div>
-                                    <img className="img-fluid solution3_1_img " src="/images/solution3_1.png" alt="Solution 1" />
+                                    <div className="solution3_1_img">
+                                        <img className="img-fluid  " src="/images/solution3_1.png" alt="Solution 1" />
+                                    </div>
+                                    
                                 </div>
                                 <div className="col-lg-4 col-11 mx-auto feature_bottom_margin">
                                     <div className="solution_circle">
@@ -65,7 +68,10 @@ const Solution = () => {
 
 
                                     </div>
-                                    <img className="img-fluid solution3_2_img " src="/images/solution3_2.png" alt="Solution 1" />
+                                    <div className="solution3_2_img">
+                                    <img className="img-fluid  " src="/images/solution3_2.png" alt="Solution 1" />
+                                    </div>
+                                    
                                 </div>
                                 <div className="col-lg-4 col-11 mx-auto feature_bottom_margin">
                                    
@@ -83,7 +89,10 @@ const Solution = () => {
                                                 使いやすい</p>
                                         </div>
                                     </div>
-                                    <img className="img-fluid solution3_3_img " src="/images/line.png" alt="Solution 1" />
+                                    <div className="solution3_3_img">
+                                      <img className="img-fluid  " src="/images/line.png" alt="Solution 1" />
+                                    </div>
+                                   
                                 </div>
 
                             </div>
