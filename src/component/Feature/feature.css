@@ -53,7 +53,7 @@
     letter-spacing: 4px;
     /* padding: 0.5rem 3rem; */
   
-}
+} 
 
 .feature_list_image{
     display: flex;
@@ -142,7 +142,7 @@
         height: 900px;
     }
 
-    .feature_list_image img {
+    .feature_list_image_img {
         width: 12%;
     }
     .feature_list_text{

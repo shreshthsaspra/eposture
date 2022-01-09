@@ -7,10 +7,14 @@ import Navbar from '../../component/Navbar/Navbar'
 import Problem from '../../component/Problem/Problem'
 import Solution from '../../component/Solution/Solution'
 import Story from '../../component/Story/Story'
+// import MyComponent from 'react-fullpage-custom-loader'
+
 
 const Home = () => {
     return (
         <>
+    {/* <MyComponent /> */}
+
           <Navbar />
            <Hero />
            <Problem />
