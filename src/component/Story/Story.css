@@ -18,7 +18,7 @@
     width: 12%;
 }
 .story_content p {
-    color: #030303;
+    color: #030303; 
     font-family: 'Gothic A1', sans-serif;
     font-size: 24px !important;
     font-weight: 400;
@@ -27,7 +27,8 @@
 }
 .story_img{
     display: flex;
-    justify-content: end;
+    justify-content: flex-end;
+
 }
 .story_img img {
     width: 30%;

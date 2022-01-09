@@ -11,7 +11,7 @@ const Feature = () => {
                             <div className="feature_box feature_first_box ">
                                 <div className="feature_list feature_first_box_top " style={{ marginTop: "6rem" }}>
                                     <div className="row">
-                                        <div className="col-md-3 col-11 mx-auto">
+                                        <div className="col-md-3 col-11 mx-auto"> 
                                             <div className="feature_list_image">
                                                 <img className='img-fluid' src="/images/feature1.png" alt=" feature1" />
                                             </div>

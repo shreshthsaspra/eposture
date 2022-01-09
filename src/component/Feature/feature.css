@@ -13,7 +13,7 @@
     width: 1000px;
     height: 700px;
     opacity: 1;
-    position: absolute;
+    position: absolute; 
 }
 .feature_first_box {
     z-index: 2;

@@ -29,7 +29,8 @@
 }
 .feature_next_right_content{
     display: flex;
-    justify-content: end;
+    justify-content: flex-end;
+
     margin-top: -37rem;
 }
 .feature_next_right_content img {
@@ -93,7 +94,7 @@
         margin-top: 1rem;
     }
 
-  }
+  } 
 
   @media only screen and (max-width: 400px) {
     .feature_next_right_content img {
