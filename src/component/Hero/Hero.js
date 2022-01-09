@@ -16,7 +16,7 @@ const Hero = () => {
                                     {/* </ScrollAnimation> */}
                                 </div>
 
-
+ 
                             </div>
 
 
@@ -27,7 +27,7 @@ const Hero = () => {
                                     <p className="hero_para mt-5">
                                         アナログだったヘルスケアサービスを  <br />
                                         顧客が使い慣れた
-                                        <img className="lineImage ms-4" src="/images/line.png" alt="line image" />
+                                        <img className="lineImage mx-1" src="/images/line.png" alt="line image" />
                                         でデジタル化。 <br />
                                         顧客とのコミュニケーションから管理まで <br />
                                         Webでどこからでも可能にするサービスです。

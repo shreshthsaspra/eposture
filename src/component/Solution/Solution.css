@@ -121,8 +121,9 @@
     line-height: 40px;
     display: flex;
     justify-content: center;
-   padding-top:25px;
-   padding-left: 5px;
+   
+   padding-top:14px;
+   padding-left: 2px;
 }
 
 @media only screen and (max-width: 1400px) {
