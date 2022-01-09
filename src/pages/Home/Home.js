@@ -3,6 +3,7 @@ import Feature from '../../component/Feature/Feature'
 import FeatureNext from '../../component/FeatureNext/FeatureNext'
 import Footer from '../../component/Footer/Footer'
 import Hero from '../../component/Hero/Hero'
+import Loader from '../../component/Loader'
 import Navbar from '../../component/Navbar/Navbar'
 import Problem from '../../component/Problem/Problem'
 import Solution from '../../component/Solution/Solution'
@@ -22,6 +23,7 @@ const Home = () => {
            <Feature />
            <FeatureNext />
            <Story />
+           {/* <Loader /> */}
            <Footer />
         </>
     )
