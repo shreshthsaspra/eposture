@@ -3,9 +3,11 @@
   /* width: 100vw; */
   font-family: Helvetica;
   overflow-x: hidden !important;
+  margin-top: -60rem;
 }
 .loader_img{
   width: 150px;
+  display: flex;justify-content: center;
 }
 .loader {
   height: 20px;

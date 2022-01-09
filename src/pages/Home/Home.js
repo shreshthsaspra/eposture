@@ -1,4 +1,4 @@
-import React from 'react'
+import React, {useState, useEffect} from 'react'
 import Feature from '../../component/Feature/Feature'
 import FeatureNext from '../../component/FeatureNext/FeatureNext'
 import Footer from '../../component/Footer/Footer'
@@ -12,7 +12,21 @@ import Story from '../../component/Story/Story'
 
 
 const Home = () => {
+    const [ spinner, setSpinner ] = useState(true);
+
+  // It will be executed before rendering
+  
+
+  useEffect(() => {
+    setTimeout(() => setSpinner(false), 5000)
+  }, []);
+
+  
+  
+
     return (
+        spinner ? 
+        <Loader /> : 
         <>
     {/* <MyComponent /> */}
 
