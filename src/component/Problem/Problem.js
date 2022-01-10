@@ -6,7 +6,7 @@ import ScrollAnimation from 'react-animate-on-scroll';
 const Problem = () => {
     return (
         <>
-            <section className="problem">
+            <section className="problem" id="problem">
                 <div className="container">
                     <div className="problem_rap">
                         <div className="problem_heading">

@@ -13,22 +13,22 @@ const Footer = () => {
                         </div>
                         <div className="col-lg-6">
                             <ul className='footer_list mt-3'>
-                                <a href='#feature_next'>
+                                <a href='#'>
                                     <li>TOP　</li> 
                                 </a>
-                                <a href='#feature_next'>
+                                <a href='#solution'>
                                     <li>サービス　</li>
                                 </a>
-                                <a href='#feature_next'>
+                                <a href='#problem'>
                                     <li>お困り</li>
                                 </a>
-                                <a href='#feature_next'>
+                                <a href='#feature'>
                                     <li>ポイント</li>
                                 </a>
                                 <a href='#feature_next'>
                                     <li>動画</li>
                                 </a>
-                                <a href='#feature_next'>
+                                <a href='#story'>
                                     <li>ストーリー</li>
                                 </a>
                             </ul>

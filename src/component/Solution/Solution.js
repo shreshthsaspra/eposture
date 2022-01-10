@@ -7,7 +7,7 @@ import { Link } from 'react-router-dom';
 const Solution = () => {
     return (
         <>
-            <section className="solution">
+            <section className="solution" id="solution">
                 <div className="container">
                     <div className="solution_heading">
                         <ScrollAnimation duration={3} animateIn='fadeIn' animateOnce={true}>

@@ -5,7 +5,7 @@ import ScrollAnimation from 'react-animate-on-scroll';
 const Hero = () => {
     return (
         <>
-            <section className="hero my-5">
+            <section className="hero py-5" id="hero">
                 <div className="container">
                     <div className="main_hero">
                         <div className="row d-flex justify-content-center align-items-center  ">

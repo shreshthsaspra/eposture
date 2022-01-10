@@ -17,36 +17,35 @@ const Navbar = () => {
               <div className="collapse navbar-collapse display_navbar ms-lg-5" id="navbarNav">
                 <ul className="navbar-nav ps-lg-5 ms-lg-5">
                   <li className="nav-item ">
-                    <Link className="nav-link logoLink mt-2 " aria-current="page" to="#feature_next">TOP
-                    </Link>
+                    <a className="nav-link logoLink mt-2 " aria-current="page" href="#">TOP
+                    </a>
                   </li>
 
                   <li className="nav-item ">
-                    <a className="nav-link logoLink mt-2 " aria-current="page" href="#">
+                    <a className="nav-link logoLink mt-2 " aria-current="page" href="#solution">
                       サービス
                     </a>
                   </li>
                   <li className="nav-item ">
-                    <a className="nav-link logoLink mt-2 " aria-current="page" href="#">
+                    <a className="nav-link logoLink mt-2 " aria-current="page" href="#problem">
                       お困りごと
                     </a>
                   </li>
                   <li className="nav-item ">
-                    <a className="nav-link logoLink mt-2 " aria-current="page" href="#">
+                    <a className="nav-link logoLink mt-2 " aria-current="page" href="#feature">
                       ポイント
                     </a>
                   </li>
                   <li className="nav-item ">
-                    <a className="nav-link logoLink mt-2 " aria-current="page" href="#">
+                    <a className="nav-link logoLink mt-2 " aria-current="page" href="#feature_next">
                       動画
                     </a>
                   </li>
                   <li className="nav-item ">
-                    <a className="nav-link logoLink mt-2 " aria-current="page" href="#">
+                    <a className="nav-link logoLink mt-2 " aria-current="page" href="#story">
                       ストーリー
                     </a>
                   </li>
-
                 </ul>
 
 

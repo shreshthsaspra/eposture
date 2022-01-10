@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 const Story = () => {
     return (
         <>
-            <section className="story">
+            <section className="story" id="story">
                 <div className="container">
                     <div className="story_rap">
                         <div className="story_heading">
