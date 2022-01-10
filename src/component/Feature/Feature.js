@@ -1,6 +1,7 @@
 import React from 'react'
 import './feature.css'
 import ScrollAnimation from 'react-animate-on-scroll';
+import { Link } from 'react-router-dom';
 
 
 const Feature = () => {
@@ -14,7 +15,7 @@ const Feature = () => {
                                 <div className="feature_list feature_first_box_top " style={{ marginTop: "6rem" }}>
                                     <div className="row">
                                         <div className="col-md-3 col-11 mx-auto"> 
-                            <ScrollAnimation duration={4} delay={100} animateIn='fadeIn' animateOnce={true}>
+                            <ScrollAnimation duration={3} delay={100} animateIn='fadeIn' animateOnce={true}>
 
                                             <div className="feature_list_image">
 
@@ -25,7 +26,7 @@ const Feature = () => {
 
                                         </div>
                                         <div className="col-md-9 col-11 mx-auto">
-                            <ScrollAnimation duration={4} delay={200} animateIn='fadeIn' animateOnce={true}>
+                            <ScrollAnimation duration={3} delay={200} animateIn='fadeIn' animateOnce={true}>
 
                                             <p className="feature_list_text ms-lg-5 mt-md-4">
                                                 チャット形式のアンケートで, <br />
@@ -39,7 +40,7 @@ const Feature = () => {
                                 <div className="feature_list" >
                                     <div className="row">
                                         <div className="col-md-3 col-11 mx-auto">
-                            <ScrollAnimation duration={4} delay={300} animateIn='fadeIn' animateOnce={true}>
+                            <ScrollAnimation duration={3} delay={300} animateIn='fadeIn' animateOnce={true}>
 
                                             <div className="feature_list_image">
                                                 <img className='img-fluid' src="/images/feature2.png" alt=" feature1" />
@@ -48,7 +49,7 @@ const Feature = () => {
 
                                         </div>
                                         <div className="col-md-9 col-11 mx-auto">
-                            <ScrollAnimation duration={4} delay={400} animateIn='fadeIn' animateOnce={true}>
+                            <ScrollAnimation duration={3} delay={400} animateIn='fadeIn' animateOnce={true}>
                                         
                                             <p className="feature_list_text ms-lg-5 mt-md-4">
                                                 顧客の体重・血圧アドのデータも自動で蓄積。 <br />
@@ -64,7 +65,7 @@ const Feature = () => {
                                 <div className="feature_list" >
                                     <div className="row">
                                         <div className="col-md-3 col-11 mx-auto">
-                            <ScrollAnimation duration={4} delay={500} animateIn='fadeIn' animateOnce={true}>
+                            <ScrollAnimation duration={3} delay={500} animateIn='fadeIn' animateOnce={true}>
                                         
                                             <div className="feature_list_image">
                                                 <img className='img-fluid' src="/images/feature3.png" alt=" feature1" />
@@ -73,7 +74,7 @@ const Feature = () => {
  
                                         </div>
                                         <div className="col-md-9 col-11 mx-auto">
-                            <ScrollAnimation duration={4} delay={600} animateIn='fadeIn' animateOnce={true}>
+                            <ScrollAnimation duration={3} delay={600} animateIn='fadeIn' animateOnce={true}>
 
                                             <p className="feature_list_text ms-lg-5 mt-md-4">
                                                 顧客の利用状況、各種記録をWebで確認。集計もラクラク。 <br />
@@ -83,7 +84,7 @@ const Feature = () => {
                                         </div>
                                     </div>
                                 </div>
-
+                                <Link to="/contact">
                                 <div className=" pBox solution_button"> 
                                     <div className="mt-5 me-5 pt-4">
 
@@ -94,13 +95,16 @@ const Feature = () => {
                                     </div> 
 
                                 </div>
+                                </Link>
+
+                              
 
 
                             </div>
                             <div className="feature_box feature_box_second_box"></div>
 
                             <div className="feature_small_box feature_third_box">
-                            <ScrollAnimation duration={4} animateIn='fadeIn' animateOnce={true}>
+                            <ScrollAnimation duration={3} animateIn='fadeIn' animateOnce={true}>
 
                                 <div className="d-flex  justify-content-center align-items-center mt-4 feature_third_top">
 

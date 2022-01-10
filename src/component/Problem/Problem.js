@@ -10,13 +10,13 @@ const Problem = () => {
                 <div className="container">
                     <div className="problem_rap">
                         <div className="problem_heading">
-                        <ScrollAnimation duration={4}  animateIn='fadeIn' animateOnce={true}>
+                        <ScrollAnimation duration={3}  animateIn='fadeIn' animateOnce={true}>
 
                             <h1>こんな <span>お悩み</span>でないですか？</h1>
                             </ScrollAnimation>
                         </div>
                         <div className="problem_content1 mb-5">
-                        <ScrollAnimation duration={4} delay={100} animateIn='fadeIn' animateOnce={true}>
+                        <ScrollAnimation duration={3} delay={100} animateIn='fadeIn' animateOnce={true}>
 
                             <span>
                                 全ての顧客へバランスよくサービスを <br />
@@ -28,7 +28,7 @@ const Problem = () => {
                             <div className="row">
                                 <div className="col-lg-6">
                                     <div className="problem_content1 mt-5">
-                         <ScrollAnimation duration={4} delay={100}  animateIn='fadeIn' animateOnce={true}>
+                         <ScrollAnimation duration={3} delay={100}  animateIn='fadeIn' animateOnce={true}>
 
                                         <span>
                                             一人ひとりの顧客と向き合いたいが <br />
@@ -38,7 +38,7 @@ const Problem = () => {
                                     </div>
                                 </div>
                                 <div className="col-lg-6">
-                         <ScrollAnimation duration={4} delay={200}  animateIn='fadeIn' animateOnce={true}>
+                         <ScrollAnimation duration={3} delay={200}  animateIn='fadeIn' animateOnce={true}>
 
                                     <img className='img-fluid problem1_img' src="/images/problem1.png" alt="Problem Image" />
                                     </ScrollAnimation>
@@ -47,7 +47,7 @@ const Problem = () => {
                         </div> 
 
 
-                        <ScrollAnimation duration={4} delay={300}  animateIn='fadeIn' animateOnce={true}>
+                        <ScrollAnimation duration={3} delay={300}  animateIn='fadeIn' animateOnce={true}>
                         <div className="problem2_img">
                    
 

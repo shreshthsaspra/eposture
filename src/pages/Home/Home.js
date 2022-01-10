@@ -18,7 +18,7 @@ const Home = () => {
   
 
   useEffect(() => {
-    setTimeout(() => setSpinner(false), 5000)
+    setTimeout(() => setSpinner(false), 3000)
   }, []);
 
   

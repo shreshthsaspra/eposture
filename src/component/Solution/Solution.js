@@ -1,6 +1,7 @@
 import React from 'react'
 import './Solution.css'
 import ScrollAnimation from 'react-animate-on-scroll';
+import { Link } from 'react-router-dom';
 
 
 const Solution = () => {
@@ -9,7 +10,7 @@ const Solution = () => {
             <section className="solution">
                 <div className="container">
                     <div className="solution_heading">
-                        <ScrollAnimation duration={4} animateIn='fadeIn' animateOnce={true}>
+                        <ScrollAnimation duration={3} animateIn='fadeIn' animateOnce={true}>
 
                             <p> それ  <img className='img-fluid mx-3 solution_logo' src="/images/logo.png" alt="logo" /> で解決できます！</p>
                         </ScrollAnimation>
@@ -19,13 +20,13 @@ const Solution = () => {
 
                         <div className="row">
                             <div className="col-lg-5 mx-auto">
-                                <ScrollAnimation duration={4} delay={100} animateIn='fadeIn' animateOnce={true}>
+                                <ScrollAnimation duration={3} delay={100} animateIn='fadeIn' animateOnce={true}>
 
                                     <img className='img-fluid solution_img1' src="/images/solution1.png" alt="Solution 1 Images" />
                                 </ScrollAnimation>
                             </div>
                             <div className="col-lg-7">
-                                <ScrollAnimation duration={4} delay={200} animateIn='fadeIn' animateOnce={true}>
+                                <ScrollAnimation duration={3} delay={200} animateIn='fadeIn' animateOnce={true}>
 
                                     <p className="solution_para">
                                         高齢者に最も利用されている <img className='solution_para_img' src="/images/line.png" alt="line image" /> を
@@ -35,18 +36,21 @@ const Solution = () => {
                                     </p>
 
 
-                                    <div className=" pBox solution_button">
+                                 <Link to='/contact'>
+                                 <div className=" pBox solution_button">
                                         <div className="nav_box nav_box_first pt-1">
                                             <p>お問合せはこちら <img className="img-fluid" style={{ width: "8%" }} src="/images/arrow.png" alt="arrow" /></p>
                                         </div>
                                         <div className="nav_box nav_box_second"></div>
                                     </div>
+                                 </Link>
+                                   
                                 </ScrollAnimation>
                             </div>
                         </div>
                         <div className="three_solution ">
                             <div className="">
-                            <ScrollAnimation duration={4} delay={100} animateIn='fadeIn' animateOnce={true}>
+                            <ScrollAnimation duration={3} delay={100} animateIn='fadeIn' animateOnce={true}>
 
 
                                 <div className="row">

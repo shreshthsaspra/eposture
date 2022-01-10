@@ -1,6 +1,6 @@
 .feature_next{
     margin-top: 60rem;
-    margin-bottom: 25rem;
+    /* margin-bottom: 25rem; */
 
 }
 .feature_next_rap{
@@ -104,4 +104,33 @@
        
         font-size: 16px !important;
     }
+  }
+  .bubbles{
+      display: flex;
+      margin-top: 10rem;
+      padding-top: 20rem;
+      justify-content: space-evenly;
+
+  }
+  .vSmall_bubble{
+      margin-top: 10px;
+    height: 20px;
+    width: 20px;
+    background-color: #C1DCF7;
+    border-radius: 50%;
+}
+  
+
+  .small_bubble{
+      margin-top: 5px;
+      height: 30px;
+      width: 30px;
+      background-color: #C1DCF7;
+      border-radius: 50%;
+  }
+  .large_bubble{
+    height: 40px;
+    width: 40px;
+    background-color: #C1DCF7;
+    border-radius: 50%;
   }

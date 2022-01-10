@@ -6,14 +6,14 @@ const FeatureNext = () => {
         <div>
             <section className="feature_next" id="feature_next">
                 <div className="container">
-                <div className="feature_next_heading">
-                            <span>
-                                <img className='img-fluid feature_next_logo me-4 mt-4' src="/images/logo.png" alt="Logo" />
-                                LINEチャットボットが「あなたの顧客の悩みに役立つ」サンプル事例
-                            </span>
-                        </div>
+                    <div className="feature_next_heading">
+                        <span>
+                            <img className='img-fluid feature_next_logo me-4 mt-4' src="/images/logo.png" alt="Logo" />
+                            LINEチャットボットが「あなたの顧客の悩みに役立つ」サンプル事例
+                        </span>
+                    </div>
                     <div className="feature_next_rap">
-                       
+
                         <div className="feature_next_content">
                             <div className="feature_next_left_content">
                                 <p>
@@ -30,9 +30,49 @@ const FeatureNext = () => {
                                 </p>
                             </div>
                             <div className="feature_next_right_content">
-                            <img src="/images/featureNext.png" alt="FeatureNext Images" />
+                                <img src="/images/featureNext.png" alt="FeatureNext Images" />
                             </div>
                         </div>
+                    </div>
+                    <div className="bubbles">
+                        <div className="small_bubble"></div>
+                        <div className="large_bubble"></div>
+                        <div className="small_bubble"></div>
+                        <div className="vSmall_bubble"></div>
+                        <div className="vSmall_bubble"></div>
+                        <div className="small_bubble"></div>
+                        <div className="large_bubble"></div>
+                        <div className="small_bubble"></div>
+                        <div className="vSmall_bubble"></div>
+                        <div className="vSmall_bubble"></div>
+                        <div className="small_bubble"></div>
+                        <div className="large_bubble"></div>
+                        <div className="small_bubble"></div>
+                        <div className="vSmall_bubble"></div>
+                        <div className="vSmall_bubble"></div>
+                        <div className="small_bubble"></div>
+                        <div className="large_bubble"></div>
+                        <div className="small_bubble"></div>
+                        <div className="vSmall_bubble"></div>
+                        <div className="vSmall_bubble"></div>
+                        <div className="small_bubble"></div>
+                        <div className="large_bubble"></div>
+                        <div className="small_bubble"></div>
+                        <div className="vSmall_bubble"></div>
+                        <div className="vSmall_bubble"></div>
+                        <div className="small_bubble"></div>
+                        <div className="large_bubble"></div>
+                        <div className="small_bubble"></div>
+                        <div className="vSmall_bubble"></div>
+                        <div className="vSmall_bubble"></div>
+                        <div className="small_bubble"></div>
+                        <div className="large_bubble"></div>
+                        <div className="small_bubble"></div>
+                        <div className="vSmall_bubble"></div>
+                        <div className="vSmall_bubble"></div>
+                      
+
+
                     </div>
                 </div>
             </section>

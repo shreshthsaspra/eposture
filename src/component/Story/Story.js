@@ -1,5 +1,6 @@
 import React from 'react';
 import './Story.css';
+import { Link } from 'react-router-dom';
 
 const Story = () => {
     return (
@@ -49,7 +50,7 @@ const Story = () => {
 
  
                         </div>
-
+                        <Link to="/contact">
                         <div className=" pBox solution_button mt-5">
                             <div className="mt-5 me-5 pt-4">
 
@@ -60,6 +61,9 @@ const Story = () => {
                             </div>
 
                         </div>
+                        </Link>
+
+                       
 
                         <div className="bottom_img">
                             <img src="/images/footer.png" alt="" />
