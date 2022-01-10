@@ -1,12 +1,19 @@
 import React from 'react';
 import Navbar from '../../component/Navbar/Navbar';
+import { Link } from 'react-router-dom';
 
 import './Contact.css';
 
 const Contact = () => {
     return (
         <>
-            <Navbar />
+
+           <div className="contact_navbar">
+           <Link to="/">
+           <img className='img-fluid contact_logo' src="/images/logo.png" alt="logo " />
+           </Link>
+              
+           </div>
             <section className="contact_page">
                 <div className="container">
                     <div className="row">
