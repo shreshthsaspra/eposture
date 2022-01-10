@@ -22,25 +22,27 @@ const Navbar = () => {
                   </li>
 
                   <li className="nav-item ">
-                    <a className="nav-link logoLink mt-2 " aria-current="page" href="#solution">
-                      サービス
-                    </a>
-                  </li>
-                  <li className="nav-item ">
                     <a className="nav-link logoLink mt-2 " aria-current="page" href="#problem">
                       お困りごと
                     </a>
                   </li>
+
+                  <li className="nav-item ">
+                    <a className="nav-link logoLink mt-2 " aria-current="page" href="#solution">
+                      サービス
+                    </a>
+                  </li>
+                  
                   <li className="nav-item ">
                     <a className="nav-link logoLink mt-2 " aria-current="page" href="#feature">
                       ポイント
                     </a>
                   </li>
-                  <li className="nav-item ">
+                  {/* <li className="nav-item ">
                     <a className="nav-link logoLink mt-2 " aria-current="page" href="#feature_next">
                       動画
                     </a>
-                  </li>
+                  </li> */}
                   <li className="nav-item ">
                     <a className="nav-link logoLink mt-2 " aria-current="page" href="#story">
                       ストーリー
