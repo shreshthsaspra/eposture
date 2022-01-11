@@ -25,8 +25,8 @@ const Story = () => {
 
 
                             </p>
-                            <div className="story_img">
-                                <img src="/images/story.png" alt="Story Image" />
+                            <div className="story_img py-3">
+                                <img src="/images/story1.png" alt="Story Image" />
                             </div>
                             <p>
                                 英語は苦手でしたが、留学して環境が変わり、学び方が変わることで面白いと思うようになります。大学専門課程で人体の事を勉強し始めると、周りの人に役に立てる仕事をしたいと思うようになりました。
@@ -66,7 +66,7 @@ const Story = () => {
                        
 
                         <div className="bottom_img">
-                            <img src="/images/footer.png" alt="" />
+                            <img src="/images/footer1.png" alt="" />
                         </div>
                     </div>
                 </div>
