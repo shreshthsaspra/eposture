@@ -8,6 +8,7 @@ import Navbar from '../../component/Navbar/Navbar'
 import Problem from '../../component/Problem/Problem'
 import Solution from '../../component/Solution/Solution'
 import Story from '../../component/Story/Story'
+import Video from '../../component/Video/Video'
 // import MyComponent from 'react-fullpage-custom-loader'
 
 
@@ -36,6 +37,7 @@ const Home = () => {
            <Solution />
            <Feature />
            <FeatureNext />
+           <Video />
            <Story />
            {/* <Loader /> */}
            <Footer />

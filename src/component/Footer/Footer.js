@@ -16,16 +16,17 @@ const Footer = () => {
                                 <a href='#'>
                                     <li>TOP　</li> 
                                 </a>
-                                <a href='#solution'>
-                                    <li>サービス　</li>
-                                </a>
+                              
                                 <a href='#problem'>
                                     <li>お困り</li>
                                 </a>
                                 <a href='#feature'>
                                     <li>ポイント</li>
                                 </a>
-                                <a href='#feature_next'>
+                                <a href='#solution'>
+                                    <li>サービス　</li>
+                                </a>
+                                <a href='#video'>
                                     <li>動画</li>
                                 </a>
                                 <a href='#story'>

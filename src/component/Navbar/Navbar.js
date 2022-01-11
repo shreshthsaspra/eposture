@@ -38,11 +38,11 @@ const Navbar = () => {
                       ポイント
                     </a>
                   </li>
-                  {/* <li className="nav-item ">
-                    <a className="nav-link logoLink mt-2 " aria-current="page" href="#feature_next">
+                  <li className="nav-item ">
+                    <a className="nav-link logoLink mt-2 " aria-current="page" href="#video">
                       動画
                     </a>
-                  </li> */}
+                  </li>
                   <li className="nav-item ">
                     <a className="nav-link logoLink mt-2 " aria-current="page" href="#story">
                       ストーリー

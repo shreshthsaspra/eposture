@@ -1,0 +1,21 @@
+.video{
+    padding-top: 7rem;
+}
+.video_rap{
+    padding: 1rem 6rem;
+}
+.video_logo {
+    width: 12%;
+}
+
+.video_heading {
+    color: #030303;
+    font-family: 'Gothic A1', sans-serif;
+    font-size: 22px !important;
+    font-weight: 800;
+    letter-spacing: 3px;
+    margin-bottom: 8rem;
+}
+.video_box{
+    margin-top: -1rem;
+}
