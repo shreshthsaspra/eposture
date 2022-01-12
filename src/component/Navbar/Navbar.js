@@ -16,34 +16,34 @@ const Navbar = () => {
               </button>
               <div className="collapse navbar-collapse display_navbar " id="navbarNav">
                 <ul className="navbar-nav  ">
-                  <li className="nav-item mx-lg-4 ">
+                  <li className="nav-item  nav_margin ">
                     <a className="nav-link logoLink mt-2 " aria-current="page" href="#">TOP
                     </a>
                   </li>
 
-                  <li className="nav-item mx-lg-4 ">
+                  <li className="nav-item nav_margin  ">
                     <a className="nav-link logoLink mt-2 " aria-current="page" href="#problem">
                       お困りごと
                     </a>
                   </li>
 
-                  <li className="nav-item mx-lg-4 ">
+                  <li className="nav-item nav_margin   ">
                     <a className="nav-link logoLink mt-2 " aria-current="page" href="#solution">
                       サービス
                     </a>
                   </li> 
                   
-                  <li className="nav-item mx-lg-4 ">
+                  <li className="nav-item nav_margin  ">
                     <a className="nav-link logoLink mt-2 " aria-current="page" href="#feature">
                       ポイント
                     </a>
                   </li>
-                  <li className="nav-item mx-lg-4 ">
+                  <li className="nav-item nav_margin  ">
                     <a className="nav-link logoLink mt-2 " aria-current="page" href="#video">
                       動画
                     </a>
                   </li>
-                  <li className="nav-item mx-lg-4 ">
+                  <li className="nav-item  nav_margin  ">
                     <a className="nav-link logoLink mt-2 " aria-current="page" href="#story">
                       ストーリー
                     </a>

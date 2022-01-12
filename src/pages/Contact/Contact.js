@@ -8,12 +8,12 @@ const Contact = () => {
     return (
         <>
 
-           <div className="contact_navbar">
-           <Link to="/">
-           <img className='img-fluid contact_logo' src="/images/logo.png" alt="logo " />
-           </Link>
-              
-           </div>
+            <div className="contact_navbar">
+                <Link to="/">
+                    <img className='img-fluid contact_logo' src="/images/logo.png" alt="logo " />
+                </Link>
+
+            </div>
             <section className="contact_page">
                 <div className="container">
                     <div className="row">
@@ -71,16 +71,19 @@ const Contact = () => {
                                 </div>
                                 <div className="row">
                                     <div className="col-lg-6 mx-auto">
-                                    <div className=" pBox my-5 pb-5">
-                                    <div className="contact_box contact_box_first  pt-3">
-                                        <p>お問合せはこちら</p>
-                                    </div>
-                                    <div className="contact_box contact_box_second"></div>
-                                </div>
+                                        <Link to="#">
+                                        <div className=" pBox my-5 pb-5">
+                                            <div className="contact_box contact_box_first  pt-3">
+                                                <p>お問合せはこちら</p>
+                                            </div>
+                                            <div className="contact_box contact_box_second"></div>
+                                        </div>
+                                        </Link>
+                                        
                                     </div>
                                 </div>
 
-                                
+
 
                             </div>
                         </div>

@@ -18,7 +18,7 @@ const Footer = () => {
                                 </a>
                               
                                 <a href='#problem'>
-                                    <li>お困り</li>
+                                    <li>お困りごと</li>
                                 </a>
                                 <a href='#feature'>
                                     <li>ポイント</li>
