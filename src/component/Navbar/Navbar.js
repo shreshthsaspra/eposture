@@ -14,36 +14,36 @@ const Navbar = () => {
               <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span className="navbar-toggler-icon"></span>
               </button>
-              <div className="collapse navbar-collapse display_navbar ms-lg-5" id="navbarNav">
-                <ul className="navbar-nav ps-lg-5 ms-lg-5">
-                  <li className="nav-item ">
+              <div className="collapse navbar-collapse display_navbar " id="navbarNav">
+                <ul className="navbar-nav  ">
+                  <li className="nav-item mx-lg-4 ">
                     <a className="nav-link logoLink mt-2 " aria-current="page" href="#">TOP
                     </a>
                   </li>
 
-                  <li className="nav-item ">
+                  <li className="nav-item mx-lg-4 ">
                     <a className="nav-link logoLink mt-2 " aria-current="page" href="#problem">
                       お困りごと
                     </a>
                   </li>
 
-                  <li className="nav-item ">
+                  <li className="nav-item mx-lg-4 ">
                     <a className="nav-link logoLink mt-2 " aria-current="page" href="#solution">
                       サービス
                     </a>
-                  </li>
+                  </li> 
                   
-                  <li className="nav-item ">
+                  <li className="nav-item mx-lg-4 ">
                     <a className="nav-link logoLink mt-2 " aria-current="page" href="#feature">
                       ポイント
                     </a>
                   </li>
-                  <li className="nav-item ">
+                  <li className="nav-item mx-lg-4 ">
                     <a className="nav-link logoLink mt-2 " aria-current="page" href="#video">
                       動画
                     </a>
                   </li>
-                  <li className="nav-item ">
+                  <li className="nav-item mx-lg-4 ">
                     <a className="nav-link logoLink mt-2 " aria-current="page" href="#story">
                       ストーリー
                     </a>
