@@ -1,7 +1,109 @@
-import React from 'react'
+import React, { useState, useEffect } from 'react'
 import './Navbar.css'
 import { Link } from 'react-router-dom';
 const Navbar = () => {
+  const [top, setTop] = useState("active")
+  const [active, setActive] = useState("")
+
+  const [problem, setProblem] = useState("")
+
+  const [solution, setSolution] = useState("")
+
+  const [feature, setFeature] = useState("")
+  const [video, setVideo] = useState("")
+
+  const [story, setStory] = useState("")
+
+
+
+  const listenScrollEvent = (event) => {
+    if (window.scrollY >= 0 && window.scrollY <= 600 ) {
+       setTop("active")
+       setSolution("")
+      setProblem("")
+      setFeature("")
+      setVideo("")
+      setStory("")
+
+      
+
+
+
+      // alert("Height reached")
+
+    } 
+    if (window.scrollY >= 601 && window.scrollY <= 1700 ) {
+      setProblem("active")
+      setTop("")
+      setSolution("")
+      setFeature("")
+      setVideo("")
+      setStory("")
+
+
+     // alert("Height reached")
+
+   } 
+
+
+    if (window.scrollY >= 1700 && window.scrollY <= 3000 ) {
+       setSolution("active")
+       setTop("")
+      setProblem("")
+      setFeature("")
+      setVideo("")
+      setStory("")
+
+
+      // alert("Height reached")
+
+    } 
+
+    if (window.scrollY >= 3000 && window.scrollY <= 5000 ) {
+      setFeature("active")
+      setSolution("")
+      setTop("")
+      setProblem("")
+      setVideo("")
+      setStory("")
+
+     // alert("Height reached")
+
+   } 
+   if (window.scrollY >= 5000 && window.scrollY <= 5800 ) {
+    setFeature("")
+    setSolution("")
+    setTop("")
+    setProblem("")
+    setVideo("active")
+    setStory("")
+
+   // alert("Height reached")
+
+ } 
+
+ if (window.scrollY >= 5800  ) {
+  setFeature("")
+  setSolution("")
+  setTop("")
+  setProblem("")
+  setVideo("")
+  setStory("active")
+
+ // alert("Height reached")
+
+} 
+  
+  }
+
+  useEffect(() => {
+    window.addEventListener('scroll', listenScrollEvent);
+    return () => window.removeEventListener("scroll", listenScrollEvent);
+  
+  }, [])
+ 
+
+
   return (
     <>
       <div className="main_navbar" style={{ overflowX: "hidden" }}>
@@ -17,34 +119,34 @@ const Navbar = () => {
               <div className="collapse navbar-collapse display_navbar " id="navbarNav">
                 <ul className="navbar-nav  ">
                   <li className="nav-item  nav_margin ">
-                    <a className="nav-link logoLink mt-2 " aria-current="page" href="#">TOP
+                    <a className={`nav-link logoLink mt-2 ${top}`} aria-current="page" href="#">TOP
                     </a>
                   </li>
 
                   <li className="nav-item nav_margin  ">
-                    <a className="nav-link logoLink mt-2 " aria-current="page" href="#problem">
+                    <a className={`nav-link logoLink mt-2 ${problem}`} aria-current="page" href="#problem">
                       お困りごと
                     </a>
                   </li>
 
                   <li className="nav-item nav_margin   ">
-                    <a className="nav-link logoLink mt-2 " aria-current="page" href="#solution">
+                    <a className={`nav-link logoLink mt-2 ${solution}`} aria-current="page" href="#solution">
                       サービス
                     </a>
-                  </li> 
-                  
+                  </li>
+
                   <li className="nav-item nav_margin  ">
-                    <a className="nav-link logoLink mt-2 " aria-current="page" href="#feature">
+                    <a className={`nav-link logoLink mt-2 ${feature}`} aria-current="page" href="#feature">
                       ポイント
                     </a>
                   </li>
                   <li className="nav-item nav_margin  ">
-                    <a className="nav-link logoLink mt-2 " aria-current="page" href="#video">
+                    <a className={`nav-link logoLink mt-2 ${video}`} aria-current="page" href="#video">
                       動画
                     </a>
                   </li>
                   <li className="nav-item  nav_margin  ">
-                    <a className="nav-link logoLink mt-2 " aria-current="page" href="#story">
+                    <a className={`nav-link logoLink mt-2 ${story}`} aria-current="page" href="#story">
                       ストーリー
                     </a>
                   </li>
