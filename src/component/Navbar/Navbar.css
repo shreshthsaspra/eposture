@@ -7,23 +7,24 @@
 }
 .logoLink:hover {
     color: #3bb78f !important;
-    animation: shake1 1s;
+    animation: topbot 0.5s linear;
+    
 }
 
-@keyframes shake1{
+
+    
+
+@keyframes topbot{
     0%{
-      transform: translateX(0)
-    }
-    25%{
-      transform: translateX(25px);
-    }
-      
-    50%{
-      transform: translateX(-25px);
+      /* transform: translateY(0); */
+      transform: rotatex(0);
     }
     100%{
-      transform: translateX(0px);
+      /* transform: translateY(-10px); */
+      transform: rotateX(360deg);
     }
+      
+    
   }
 .active {
 
