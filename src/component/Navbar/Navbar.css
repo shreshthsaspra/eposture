@@ -4,10 +4,17 @@
     font-weight: 900 !important;
     letter-spacing: 1px;
     color: black !important;
+    -webkit-transition: .4s ease;
+            -moz-transition: .4s ease;
+            -o-transition: .4s ease;
+            -ms-transition: .4s ease;
+            transition: .4s ease;
 }
 .logoLink:hover {
     color: #3bb78f !important;
-    animation: topbot 0.5s linear;
+    /* animation: topbot 0.5s linear; */
+    transform: scale(1.3);
+    transition: .4s ease;
     
 }
 
