@@ -35,7 +35,7 @@ const Hero = () => {
                                     </p>
                                 </ScrollAnimation>
 
-                            </div>
+                            </div> 
                         </div>
                     </div>
                 </div>
