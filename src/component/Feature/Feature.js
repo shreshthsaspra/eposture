@@ -43,7 +43,7 @@ const Feature = () => {
                             <ScrollAnimation duration={3} delay={300} animateIn='fadeIn' animateOnce={true}>
 
                                             <div className="feature_list_image">
-                                                <img className='img-fluid' src="/images/feature2.png" alt=" feature1" />
+                                                <img className='img-fluid feature_list_image_img' src="/images/feature2.png" alt=" feature1" />
                                             </div>
                                         </ScrollAnimation>
 
@@ -68,7 +68,7 @@ const Feature = () => {
                             <ScrollAnimation duration={3} delay={500} animateIn='fadeIn' animateOnce={true}>
                                         
                                             <div className="feature_list_image">
-                                                <img className='img-fluid' src="/images/feature3.png" alt=" feature1" />
+                                                <img className='img-fluid feature_list_image_img' src="/images/feature3.png" alt=" feature1" />
                                             </div>
                                             </ScrollAnimation>
  

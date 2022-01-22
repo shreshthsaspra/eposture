@@ -1,5 +1,6 @@
 import React, {useState, useEffect} from 'react'
 import Feature from '../../component/Feature/Feature'
+import Feature4 from '../../component/feature4/Feature4'
 import FeatureNext from '../../component/FeatureNext/FeatureNext'
 import Footer from '../../component/Footer/Footer'
 import Hero from '../../component/Hero/Hero'
@@ -36,6 +37,8 @@ const Home = () => {
            <Problem />
            <Solution />
            <Feature />
+           <Feature4 />
+
            <FeatureNext />
            <Video />
            <Story />
