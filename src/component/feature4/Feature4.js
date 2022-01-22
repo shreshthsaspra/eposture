@@ -44,12 +44,13 @@ const Feature4 = () => {
                     <div className="feature3_main">
                         <img className='feature3_main_img' src="/images/f3.png" alt="" />
                         <div className="feature3_main_text">
-                            <span>運動へのアドバイス</span>
+                            <span>姿勢へのアドバイス</span>
                             <p>
-                                タップすることで、さらなるメニューが表示されます。ここでは、何を使った、何を目的とした運動を行いたいのかをユーザーが選択す
-                                ることで的確なアドバイスを出すことが可能です。 <br /> <br />
+                                ユーザーが撮った画像、もしくはその場で撮影した画像を解析し、姿勢に対してフィードバックを自動で出すことができます。
+                                。 <br /> <br />
 
-                                ユーザーがどれだけこの機能を、どのように活用したのかは、管理画面で一律で管理することが可能です。
+                                送信された画像、撮影された画像は、解析結果を含めてサーバーに保存され、管理者画面から確認できます。
+
 
                             </p>
                         </div>
@@ -58,12 +59,13 @@ const Feature4 = () => {
                     </div>
 
                     <div className="feature_main_4">
-                    <div className="feature4_main_text">
-                            <span><p className='feature4_main_text_h'>食事へのアドバイス</p>
+                        <div className="feature4_main_text">
+                            <span><p className='feature4_main_text_h'>記録の確認</p>
                                 <br />
                                 <p className='feature4_main_text_p'>
-                                    導入される事業者様が、自由にアドバイス項目、アンケート項目を設定することができます。 <br /> <br />
-                                    ユーザーがどのようにアンケートに回答したのかのデータをもとに、ユーザーの食事に関するデータを取得、フィードバックすることが可能です。
+                                    各項目を選択すると設定したウェブサイトに遷移し、設定し、定期的に記録した多種多様な測定項目（バイタル情報など）をデータ化、グラフ化して確認することができます。
+                                    。 <br /> <br />
+                                    それぞれのユーザーの情報は管理画面で確認することができCSVとして集計できます。
                                 </p>
                             </span>
                         </div>
