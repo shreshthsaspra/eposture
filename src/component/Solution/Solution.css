@@ -217,7 +217,7 @@
     }
   }
 
-  @media only screen and (max-width: 768px) {
+  @media only screen and (max-width: 766px) {
     .solution_heading p {
         
         font-size: 25px !important;

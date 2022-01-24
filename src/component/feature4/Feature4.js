@@ -33,10 +33,10 @@ const Feature4 = () => {
 
                     </div>
                     <img className='feature4_main_img img-fluid' src="/images/mobile1.png" alt="" />
-                    <img className='line1' src="/images/line1.png" alt="" />
-                    <img className='line2' src="/images/line2.png" alt="" />
-                    <img className='line3' src="/images/line3.png" alt="" />
-                    <img className='line4' src="/images/line4.png" alt="" />
+                    <img className='line1 img-fluid' src="/images/line1.png" alt="" />
+                    <img className='line2 img-fluid' src="/images/line2.png" alt="" />
+                    <img className='line3 img-fluid' src="/images/line3.png" alt="" />
+                    <img className='line4 img-fluid' src="/images/line4.png" alt="" />
 
 
 

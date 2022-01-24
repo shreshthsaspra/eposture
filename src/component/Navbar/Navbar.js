@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom';
 const Navbar = () => {
   const [top, setTop] = useState("active")
   const [active, setActive] = useState("")
+  const [show, setShow] = useState("")
 
   const [problem, setProblem] = useState("")
 
@@ -24,10 +25,6 @@ const Navbar = () => {
       setFeature("")
       setVideo("")
       setStory("")
-
-      
-
-
 
       // alert("Height reached")
 
@@ -96,11 +93,14 @@ const Navbar = () => {
   
   }
 
+  console.log("Show", show);
   useEffect(() => {
     window.addEventListener('scroll', listenScrollEvent);
     return () => window.removeEventListener("scroll", listenScrollEvent);
   
   }, [])
+
+
  
 
 
@@ -118,36 +118,42 @@ const Navbar = () => {
               </button>
               <div className="collapse navbar-collapse display_navbar " id="navbarNav">
                 <ul className="navbar-nav  ">
-                  <li className="nav-item  nav_margin ">
-                    <a className={`nav-link logoLink mt-2 ${top}`} aria-current="page" href="#">TOP
+                  <li className="nav-item  nav_margin" data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show">
+                    <a className={`nav-link single logoLink mt-2 ${show} ${top}`} href="#">
+                   <p>
+                   TOP
+                   </p>
+                    
                     </a>
                   </li>
 
-                  <li className="nav-item nav_margin  ">
-                    <a className={`nav-link logoLink mt-2 ${problem}`} aria-current="page" href="#problem">
-                      お困りごと
+                  <li className="nav-item nav_margin "  data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show">
+                    <a href="#problem" className={`nav-link logoLink mt-2 ${problem}`} >
+                       <p>お困りごと</p>  
                     </a>
                   </li>
 
-                  <li className="nav-item nav_margin   ">
+                  <li className="nav-item nav_margin" data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show">
                     <a className={`nav-link logoLink mt-2 ${solution}`} aria-current="page" href="#solution">
-                      サービス
+                       <p>サービス</p>
                     </a>
                   </li>
 
-                  <li className="nav-item nav_margin  ">
+                  <li className="nav-item nav_margin " data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show">
                     <a className={`nav-link logoLink mt-2 ${feature}`} aria-current="page" href="#feature">
                       ポイント
+                    <p></p>
                     </a>
                   </li>
-                  <li className="nav-item nav_margin  ">
+                  <li className="nav-item nav_margin  " data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show">
                     <a className={`nav-link logoLink mt-2 ${video}`} aria-current="page" href="#video">
-                      動画
+                       <p> v動画</p>
+                      
                     </a>
                   </li>
-                  <li className="nav-item  nav_margin  ">
+                  <li className="nav-item  nav_margin  " data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show">
                     <a className={`nav-link logoLink mt-2 ${story}`} aria-current="page" href="#story">
-                      ストーリー
+                       <p>ストーリー</p> 
                     </a>
                   </li>
                 </ul>
