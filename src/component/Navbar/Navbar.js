@@ -93,7 +93,7 @@ const Navbar = () => {
   
   }
 
-  console.log("Show", show);
+  // console.log("Show", show);
   useEffect(() => {
     window.addEventListener('scroll', listenScrollEvent);
     return () => window.removeEventListener("scroll", listenScrollEvent);
@@ -147,7 +147,7 @@ const Navbar = () => {
                   </li>
                   <li className="nav-item nav_margin  " data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show">
                     <a className={`nav-link logoLink mt-2 ${video}`} aria-current="page" href="#video">
-                       <p> v動画</p>
+                       <p> 動画</p>
                       
                     </a>
                   </li>

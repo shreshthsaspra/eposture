@@ -199,20 +199,17 @@
     }
     .solution3_2_img{
         width: 22%;
-        
         top: 120%;
         left: 40%;
     }
     .solution3_1_img{
         width: 21%;
-        
         top: 120%;
         left: 40%;
     }
     .solution3_3_img{
         width: 20%;
-        
-        top: 130%;
+        top: 160% !important;
         left: 40%;
     }
   }
@@ -274,7 +271,7 @@
 .solution3_3_img{
     width: 20%;
     
-    top: 130%;
+    top: 130% !important;
     left: 37%;
 }
 

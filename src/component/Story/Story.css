@@ -27,7 +27,7 @@
 }
 .story_img{
     display: flex;
-    justify-content: flex-end;
+    justify-content: center !important;
 
 }
 .story_img img {
